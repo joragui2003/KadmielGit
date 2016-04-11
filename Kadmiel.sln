@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Kadmiel", "http://localhost:5671", "{B81E7CF3-4F67-43F9-9096-F6F32A87F0CA}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{67f1ea27-bb39-4926-bf85-75092996ac7f}|BusKadmiel.dll;{0C454C7E-63EE-4E4E-A0CC-23F1AD37FB83}|DatKadmiel.dll;{C23B0A5E-0E3B-45CB-800E-37BDD0B82474}|UtilityKadmiel.dll;{39CC1FDB-0654-4481-8B29-2E6A8D69CDFC}|EntityKadmiel.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_5671"
+		Debug.AspNetCompiler.PhysicalPath = "Kadmiel\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5671\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_5671"
+		Release.AspNetCompiler.PhysicalPath = "Kadmiel\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5671\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Kadmiel\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Business", "2 Business", "{81785D46-16EE-49E2-8870-7687373230C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 UI", "1 UI", "{0CB40D14-0A63-4159-A181-E15273ABAD28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Data", "3 Data", "{07D4283E-18E5-435E-A945-094E12539689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusKadmiel", "BusKadmiel\BusKadmiel.csproj", "{67F1EA27-BB39-4926-BF85-75092996AC7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatKadmiel", "DatKadmiel\DatKadmiel.csproj", "{0C454C7E-63EE-4E4E-A0CC-23F1AD37FB83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityKadmiel", "EntityKadmiel\EntityKadmiel.csproj", "{39CC1FDB-0654-4481-8B29-2E6A8D69CDFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityKadmiel", "UtilityKadmiel\UtilityKadmiel.csproj", "{C23B0A5E-0E3B-45CB-800E-37BDD0B82474}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B81E7CF3-4F67-43F9-9096-F6F32A87F0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81E7CF3-4F67-43F9-9096-F6F32A87F0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81E7CF3-4F67-43F9-9096-F6F32A87F0CA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81E7CF3-4F67-43F9-9096-F6F32A87F0CA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{67F1EA27-BB39-4926-BF85-75092996AC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F1EA27-BB39-4926-BF85-75092996AC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F1EA27-BB39-4926-BF85-75092996AC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F1EA27-BB39-4926-BF85-75092996AC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C454C7E-63EE-4E4E-A0CC-23F1AD37FB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C454C7E-63EE-4E4E-A0CC-23F1AD37FB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C454C7E-63EE-4E4E-A0CC-23F1AD37FB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C454C7E-63EE-4E4E-A0CC-23F1AD37FB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CC1FDB-0654-4481-8B29-2E6A8D69CDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CC1FDB-0654-4481-8B29-2E6A8D69CDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CC1FDB-0654-4481-8B29-2E6A8D69CDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CC1FDB-0654-4481-8B29-2E6A8D69CDFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23B0A5E-0E3B-45CB-800E-37BDD0B82474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23B0A5E-0E3B-45CB-800E-37BDD0B82474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23B0A5E-0E3B-45CB-800E-37BDD0B82474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23B0A5E-0E3B-45CB-800E-37BDD0B82474}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67F1EA27-BB39-4926-BF85-75092996AC7F} = {81785D46-16EE-49E2-8870-7687373230C2}
+		{39CC1FDB-0654-4481-8B29-2E6A8D69CDFC} = {81785D46-16EE-49E2-8870-7687373230C2}
+		{C23B0A5E-0E3B-45CB-800E-37BDD0B82474} = {81785D46-16EE-49E2-8870-7687373230C2}
+		{B81E7CF3-4F67-43F9-9096-F6F32A87F0CA} = {0CB40D14-0A63-4159-A181-E15273ABAD28}
+		{0C454C7E-63EE-4E4E-A0CC-23F1AD37FB83} = {07D4283E-18E5-435E-A945-094E12539689}
+	EndGlobalSection
+EndGlobal

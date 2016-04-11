@@ -1,0 +1,586 @@
+/* ==================================================
+Accordion & Toggle
+================================================== */
+.accordion,
+.toggle{}
+
+
+.accordion .accordion_container,
+.toggle .toggle_container{
+	border-top:1px solid #efefef;
+}
+
+.accordion .accordion_container:last-child,
+.toggle .toggle_container:last-child{
+	border-bottom:1px solid #efefef;
+}
+
+.accordion .accordion_trigger,
+.toggle .toggle_trigger{
+	padding:20px 0 20px 50px;
+	display:block;
+	font-weight:bold;
+	position:relative;
+	
+	-moz-transition: background 0.12s linear;
+	-webkit-transition: background 0.12s linear;  
+    -o-transition: background 0.12s linear;  
+    -ms-transition: background 0.12s linear;  
+    transition: background 0.12s linear;
+}
+
+.accordion_trigger:hover,
+.toggle_trigger:hover{
+	background:#f8f8f8;
+}
+
+.accordion .accordion_trigger span,
+.toggle .toggle_trigger span{
+	background:url(../images/sprites/sprite-toggle.png) top no-repeat;
+	width:22px;
+	height:22px;
+	position:absolute;
+	top:50%;
+	left:15px;
+	margin:-11px 0 0 0;
+}
+
+.accordion .accordion_trigger.active span,
+.toggle .toggle_trigger.active span{
+	background-position:bottom;
+}
+
+.accordion .accordion_content,
+.toggle .toggle_content{
+	padding:0 20px 20px 20px;
+	display:none;
+	line-height:20px;
+}
+
+
+/* ==================================================
+Tabs
+================================================== */
+.tabs_area{}
+
+.tabs_area .tabs{
+	width:100%;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+.tabs_area .tabs li{
+	margin:0 3px 0 0;
+	padding:0;
+	float:left;
+	position:relative;
+	height:36px;
+	
+	border:1px solid #efefef;
+	border-bottom:none;
+	
+	-moz-border-radius:4px 4px 0 0;
+	-webkit-border-radius:4px 4px 0 0;
+	border-radius:4px 4px 0 0;
+}
+
+.tabs_area .tabs li a{
+	padding:0 15px;
+	height:36px;
+	line-height:36px;
+	background:#f8f9f9;
+	color:#444;
+	display:inline-block;
+	margin:0;
+	border-bottom:1px solid #efefef;
+	font-weight:bold;
+	
+	-moz-border-radius:4px 4px 0 0;
+	-webkit-border-radius:4px 4px 0 0;
+	border-radius:4px 4px 0 0;
+}
+
+
+
+.tabs_area .tabs li a:hover,
+.tabs_area .tabs li a.active{
+	background:#373C3F;
+	border-bottom:1px solid #373C3F;
+	color:#fff;
+}
+
+.tabs_area .tab{
+	padding:20px;
+	display:none;
+	border:1px solid #efefef;
+	
+	-moz-border-radius:0 4px 4px 4px;
+	-webkit-border-radius:0 4px 4px 4px;
+	border-radius:0 4px 4px 4px;
+	
+	margin:0;
+}
+
+.tabs_area .tab.active{
+	display:block;
+}
+
+
+
+/* ==================================================
+Table
+================================================== */
+table.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border: medium none;
+}
+
+table.table tr th{
+	border-top:1px solid #333333;
+	border-left:1px solid #333333;
+	border-bottom:1px solid #333333;
+	padding:10px;
+	font-size:16px;
+	text-align:left;
+	background:#373C3F;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+table.table tr td{
+	border-left:1px solid #efefef;
+	border-bottom:1px solid #efefef;
+	padding:10px;
+	text-align:left;
+}
+
+table.table tr th:last-child{
+	border-right:1px solid #333333;
+}
+
+table.table tr td:last-child{
+	border-right:1px solid #efefef;
+}
+
+table.table tr.alternate td{
+	background:#f9f9f9;
+}
+
+
+/* ==================================================
+Highlight
+================================================== */
+.highlight{
+	padding:1px 5px;
+	background:#efefef;
+}
+
+.highlight.rounded{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* ==================================================
+Dropcaps
+================================================== */
+.dropcaps{
+	padding:8px 15px;
+	margin:5px 10px 0 0;
+	float:left;
+	font-size:18px;
+	font-weight:bold;
+	background:#efefef;
+}
+
+
+/* ==================================================
+Tooltip
+================================================== */
+.tooltip{
+	border-bottom:1px dashed #efefef;
+	font-weight:bold;
+}
+
+/* ==================================================
+Progess Bar
+================================================== */
+
+.progress_bar{
+	width:100%;
+}
+
+.progress_bar p{
+	font-size:12px;
+	line-height:12px;
+	text-transform:uppercase;
+}
+
+.progress_bar p span{
+	margin:0 0 0 20px;
+}
+
+.progress_bar .progress{
+	width:100%;
+	height:12px;
+	display:block;
+	position:relative;
+
+	overflow:hidden;
+}
+
+.progress_bar .progress span{
+	position:absolute;
+	top:0;
+	left:0;
+	height:12px;
+
+	opacity:0;
+	filter: alpha(opacity=0);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+
+
+/* ==================================================
+Pricing Tables
+================================================== */
+.pricing_table{
+	width:100%;
+}
+
+.pricing_table .pricing_table_column{
+	width:20%;
+	float:left;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+.pricing_table .pricing_table_column ul{
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+.pricing_table .pricing_table_column.selected ul{
+	border-right:1px solid #efefef;
+	z-index:9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.pricing_table .pricing_table_column ul li{
+	position:relative;
+	border-left:1px solid #efefef;
+	border-bottom:1px solid #efefef;
+	text-align:center;
+	font-size:12px;
+	line-height:20px;
+	height:16px;
+	padding:12px 0;
+	margin:0;
+}
+
+.pricing_table .pricing_table_column ul.noborder li{
+	border-left:none;
+}
+
+.pricing_table .pricing_table_column.last ul li{
+	border-right:1px solid #efefef;
+}
+
+.pricing_table .pricing_table_column ul li.head{
+	height:100px;
+	overflow:hidden;
+	border-top:1px solid #efefef;
+	margin:0;
+	padding:0;
+}
+
+.pricing_table .pricing_table_column ul li.head h6{
+	margin:10px 0 0;
+	font-weight:bold;
+}
+
+.pricing_table .pricing_table_column ul li.head h4{
+	margin:10px 0;
+	font-size:30px;
+	font-weight:bold;
+}
+
+.pricing_table .pricing_table_column ul li.alternate{
+	background:#f9f9f9;
+}
+
+.pricing_table .pricing_table_column ul li span{
+	margin:0;
+	padding:0;
+}
+
+.pricing_table .pricing_table_column ul li span.label{
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:100%;
+	float:left;
+	font-weight:600;
+	display:none;
+}
+
+.pricing_table .pricing_table_column ul li.head span{
+	font-size:12px;
+}
+
+
+.pricing_table .pricing_table_column ul li.end{
+	text-indent:0;
+	padding:32px 12px;
+	height:auto;
+}
+
+.pricing_table .pricing_table_column ul li.end .button{
+	margin:0;
+}
+
+.pricing_table .pricing_table_column.labels{
+	width:20%;
+}
+
+.pricing_table .pricing_table_column.labels li{
+	text-align:left;
+	text-indent:12px;
+}
+
+.pricing_table .pricing_table_column.labels ul li.head{
+	background:none;
+	border-top-color:transparent;
+	border-left-color:transparent;
+}
+
+.pricing_table .pricing_table_column.labels ul li.end{
+	background:none;
+	border-bottom-color:transparent;
+	border-left-color:transparent;
+}
+
+
+.pricing_table .pricing_table_column.selected ul li.head{
+	margin-top:-10px;
+	padding-top:10px;
+}
+.pricing_table .pricing_table_column.selected ul li.end{
+	padding-top:37px;
+	padding-bottom:37px;
+}
+
+
+.pricing_table_clean{
+	width:100%;
+}
+
+.pricing_table_clean .pricing_table_column{
+	width:25%;
+	float:left;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+.pricing_table_clean .pricing_table_column ul{
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+
+.pricing_table_clean .pricing_table_column ul.noborder li{
+	border-left:none;
+}
+
+.pricing_table_clean .pricing_table_column ul li{
+	position:relative;
+	border-left:1px solid #efefef;
+	border-bottom:1px solid #efefef;
+	text-align:center;
+	font-size:12px;
+	line-height:16px;
+	padding:10px 0;
+	margin:0;
+	background:#f9f9f9;
+}
+
+.pricing_table_clean .pricing_table_column.last ul li{
+	border-right:1px solid #efefef;
+}
+
+.pricing_table_clean .pricing_table_column ul li.head{
+	height:100px;
+	overflow:hidden;
+	border-top:1px solid #efefef;
+	margin:0;
+	padding:0;
+	line-height:20px;
+}
+
+.pricing_table_clean .pricing_table_column ul li.head h6{
+	margin:10px 0 0 0;
+}
+
+.pricing_table_clean .pricing_table_column ul li.head h4{
+	margin:10px 0;
+	font-size:30px;
+	font-weight:bold;
+}
+
+.pricing_table_clean .pricing_table_column ul li.head span{
+	font-size:12px;
+}
+
+
+.pricing_table_clean .pricing_table_column ul li.end{
+	text-indent:0;
+	padding:32px 12px;
+}
+
+.pricing_table_clean .pricing_table_column ul li.end .button{
+	margin:0;
+}
+
+
+.pricing_table_clean .pricing_table_column.selected ul{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    z-index: 9;
+	border-right:1px solid #efefef;
+}
+
+.pricing_table_clean .pricing_table_column.selected ul li{
+	background:#fff;
+}
+
+
+.pricing_table_clean .pricing_table_column.selected ul li.head{
+	margin-top:-10px;
+	padding-top:10px;
+}
+.pricing_table_clean .pricing_table_column.selected ul li.end{
+	padding-top:37px;
+	padding-bottom:37px;
+}
+
+
+/* ==================================================
+Alert
+================================================== */
+.alert{
+	padding:20px 20px 20px 55px;
+	position:relative;
+	background-color: #f8f9f9;
+	color: #9e9e9e;
+	border:1px solid #9e9e9e;
+
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.alert.rounded{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.alert.standard{
+	background-color: #f8f9f9;
+	color: #9e9e9e;
+	border-color:#9e9e9e;
+}
+
+.alert.info{
+	background-color: #d8ecf5;
+	color: #528da9;
+	border-color: #528da9;
+}
+
+.alert.success{
+	background-color: #e3ebc6;
+	color: #8fa442;
+	border-color: #8fa442;
+}
+
+.alert.error{
+	background-color: #f9e5e6;
+	color: #b3696c;
+	border-color: #b3696c;
+}
+
+.alert.warning{
+	background-color: #fcf7d9;
+	color: #c4a21b;
+	border-color: #c4a21b;
+}
+
+.alert .alert_close{
+	position:absolute;
+	right:10px;
+	top:50%;
+	width:10px;
+	height:10px;
+	margin-top:-5px;
+	text-indent:-9999px;
+	background:url(../images/sprites/sprite-alert.png);
+}
+
+.alert .icon{
+	width:32px;
+	height:32px;
+	background-image:url(../images/sprites/sprite-alert.png);
+	background-repeat:no-repeat;
+	top:50%;
+	margin:-16px 0 0 0;
+	left:10px;
+	position:absolute;
+}
+
+.alert.standard .icon{
+	background-position:0 0;	
+}
+
+.alert.info .icon{
+	background-position:0 -32px;	
+}
+
+.alert.success .icon{
+	background-position:0 -64px;	
+}
+
+.alert.error .icon{
+	background-position:0 -96px;	
+}
+
+.alert.warning .icon{
+	background-position:0 -128px;	
+}
+
+
+.alert.standard .alert_close{
+	background-position:-43px -11px;	
+}
+
+.alert.info .alert_close{
+	background-position:-43px -43px;	
+}
+
+.alert.success .alert_close{
+	background-position:-43px -75px;	
+}
+
+.alert.error .alert_close{
+	background-position:-43px -107px;	
+}
+
+.alert.warning .alert_close{
+	background-position:-43px -139px;	
+}

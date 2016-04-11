@@ -1,0 +1,18 @@
+#loader{
+	display:none;
+}
+
+.btn-animated a{
+	text-indent:-9999px;
+}
+
+.btn-animated:hover a,
+.btn-animated.active a{
+	text-indent:0;
+}
+
+.team_single .image .mask span,
+.animate_list ul li .image .mask span,
+#portfolio_items .item .mask span.title-item{
+	top:-100%;
+}

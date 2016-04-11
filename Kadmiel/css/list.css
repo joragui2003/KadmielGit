@@ -1,0 +1,813 @@
+/* ==================================================
+List Styles
+================================================== */
+
+ul.list{
+	margin:0 0 15px 0;
+	padding:0;
+}
+
+ul.list li{
+	margin:0 0 10px 0;
+	padding:0 0 0 20px;
+	background-repeat:no-repeat;
+}
+
+
+
+/* --- Dark --- */
+
+ul.list.list_square.list-dark li{
+background:url(../images/list/dark/list-square.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-dark li{
+background:url(../images/list/dark/list-circle.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-dark li{
+background:url(../images/list/dark/list-plus.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-dark li{
+background:url(../images/list/dark/list-minus.png) center left no-repeat;
+}
+
+ul.list.list_check.list-dark li{
+background:url(../images/list/dark/list-check.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-dark li{
+background:url(../images/list/dark/list-cross.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-dark li{
+background:url(../images/list/dark/list-arrow.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-dark li{
+background:url(../images/list/dark/list-arrow-2.png) center left no-repeat;
+}
+
+ul.list.list_star.list-dark li{
+background:url(../images/list/dark/list-star.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-dark li{
+background:url(../images/list/dark/list-heart.png) center left no-repeat;
+}
+
+
+
+/* --- White --- */
+
+ul.list.list_square.list-white li{
+background:url(../images/list/white/list-square.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-white li{
+background:url(../images/list/white/list-circle.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-white li{
+background:url(../images/list/white/list-plus.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-white li{
+background:url(../images/list/white/list-minus.png) center left no-repeat;
+}
+
+ul.list.list_check.list-white li{
+background:url(../images/list/white/list-check.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-white li{
+background:url(../images/list/white/list-cross.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-white li{
+background:url(../images/list/white/list-arrow.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-white li{
+background:url(../images/list/white/list-arrow-2.png) center left no-repeat;
+}
+
+ul.list.list_star.list-white li{
+background:url(../images/list/white/list-star.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-white li{
+background:url(../images/list/white/list-heart.png) center left no-repeat;
+}
+
+
+
+/* --- Light Orange --- */
+
+ul.list.list_square.list-light-orange li{
+background:url(../images/list/light-orange/list-square.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-light-orange li{
+background:url(../images/list/light-orange/list-circle.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-light-orange li{
+background:url(../images/list/light-orange/list-plus.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-light-orange li{
+background:url(../images/list/light-orange/list-minus.png) center left no-repeat;
+}
+
+ul.list.list_check.list-light-orange li{
+background:url(../images/list/light-orange/list-check.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-light-orange li{
+background:url(../images/list/light-orange/list-cross.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-light-orange li{
+background:url(../images/list/light-orange/list-arrow.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-light-orange li{
+background:url(../images/list/light-orange/list-arrow-2.png) center left no-repeat;
+}
+
+ul.list.list_star.list-light-orange li{
+background:url(../images/list/light-orange/list-star.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-light-orange li{
+background:url(../images/list/light-orange/list-heart.png) center left no-repeat;
+}
+
+
+
+/* --- Light Cyan --- */
+
+ul.list.list_square.list-light-cyan li{
+background:url(../images/list/light-cyan/list-square.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-light-cyan li{
+background:url(../images/list/light-cyan/list-circle.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-light-cyan li{
+background:url(../images/list/light-cyan/list-plus.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-light-cyan li{
+background:url(../images/list/light-cyan/list-minus.png) center left no-repeat;
+}
+
+ul.list.list_check.list-light-cyan li{
+background:url(../images/list/light-cyan/list-check.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-light-cyan li{
+background:url(../images/list/light-cyan/list-cross.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-light-cyan li{
+background:url(../images/list/light-cyan/list-arrow.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-light-cyan li{
+background:url(../images/list/light-cyan/list-arrow-2.png) center left no-repeat;
+}
+
+ul.list.list_star.list-light-cyan li{
+background:url(../images/list/light-cyan/list-star.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-light-cyan li{
+background:url(../images/list/light-cyan/list-heart.png) center left no-repeat;
+}
+
+
+
+/* --- Light Green --- */
+
+ul.list.list_square.list-light-green li{
+background:url(../images/list/light-green/list-square.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-light-green li{
+background:url(../images/list/light-green/list-circle.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-light-green li{
+background:url(../images/list/light-green/list-plus.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-light-green li{
+background:url(../images/list/light-green/list-minus.png) center left no-repeat;
+}
+
+ul.list.list_check.list-light-green li{
+background:url(../images/list/light-green/list-check.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-light-green li{
+background:url(../images/list/light-green/list-cross.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-light-green li{
+background:url(../images/list/light-green/list-arrow.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-light-green li{
+background:url(../images/list/light-green/list-arrow-2.png) center left no-repeat;
+}
+
+ul.list.list_star.list-light-green li{
+background:url(../images/list/light-green/list-star.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-light-green li{
+background:url(../images/list/light-green/list-heart.png) center left no-repeat;
+}
+
+
+
+/* --- Aqua --- */
+
+ul.list.list_square.list-aqua li{
+background:url(../images/list/aqua/list-square.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-aqua li{
+background:url(../images/list/aqua/list-circle.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-aqua li{
+background:url(../images/list/aqua/list-plus.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-aqua li{
+background:url(../images/list/aqua/list-minus.png) center left no-repeat;
+}
+
+ul.list.list_check.list-aqua li{
+background:url(../images/list/aqua/list-check.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-aqua li{
+background:url(../images/list/aqua/list-cross.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-aqua li{
+background:url(../images/list/aqua/list-arrow.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-aqua li{
+background:url(../images/list/aqua/list-arrow-2.png) center left no-repeat;
+}
+
+ul.list.list_star.list-aqua li{
+background:url(../images/list/aqua/list-star.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-aqua li{
+background:url(../images/list/aqua/list-heart.png) center left no-repeat;
+}
+
+
+
+/* --- Lemon --- */
+
+ul.list.list_square.list-lemon li{
+background:url(../images/list/lemon/list-square.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-lemon li{
+background:url(../images/list/lemon/list-circle.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-lemon li{
+background:url(../images/list/lemon/list-plus.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-lemon li{
+background:url(../images/list/lemon/list-minus.png) center left no-repeat;
+}
+
+ul.list.list_check.list-lemon li{
+background:url(../images/list/lemon/list-check.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-lemon li{
+background:url(../images/list/lemon/list-cross.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-lemon li{
+background:url(../images/list/lemon/list-arrow.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-lemon li{
+background:url(../images/list/lemon/list-arrow-2.png) center left no-repeat;
+}
+
+ul.list.list_star.list-lemon li{
+background:url(../images/list/lemon/list-star.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-lemon li{
+background:url(../images/list/lemon/list-heart.png) center left no-repeat;
+}
+
+
+
+/* --- Red --- */
+
+ul.list.list_square.list-red li{
+background:url(../images/list/red/list-square.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-red li{
+background:url(../images/list/red/list-circle.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-red li{
+background:url(../images/list/red/list-plus.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-red li{
+background:url(../images/list/red/list-minus.png) center left no-repeat;
+}
+
+ul.list.list_check.list-red li{
+background:url(../images/list/red/list-check.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-red li{
+background:url(../images/list/red/list-cross.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-red li{
+background:url(../images/list/red/list-arrow.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-red li{
+background:url(../images/list/red/list-arrow-2.png) center left no-repeat;
+}
+
+ul.list.list_star.list-red li{
+background:url(../images/list/red/list-star.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-red li{
+background:url(../images/list/red/list-heart.png) center left no-repeat;
+}
+
+
+
+/* --- Purple --- */
+
+ul.list.list_square.list-purple li{
+background:url(../images/list/purple/list-square.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-purple li{
+background:url(../images/list/purple/list-circle.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-purple li{
+background:url(../images/list/purple/list-plus.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-purple li{
+background:url(../images/list/purple/list-minus.png) center left no-repeat;
+}
+
+ul.list.list_check.list-purple li{
+background:url(../images/list/purple/list-check.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-purple li{
+background:url(../images/list/purple/list-cross.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-purple li{
+background:url(../images/list/purple/list-arrow.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-purple li{
+background:url(../images/list/purple/list-arrow-2.png) center left no-repeat;
+}
+
+ul.list.list_star.list-purple li{
+background:url(../images/list/purple/list-star.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-purple li{
+background:url(../images/list/purple/list-heart.png) center left no-repeat;
+}
+
+
+/* --- Retina Display --- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+ul.list li{
+	background-size:12px 12px;
+}
+
+
+/* --- Dark --- */
+
+ul.list.list_circle.list-dark li{
+background:url(../images/list/retina/dark/list-circle_@2x.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-dark li{
+background:url(../images/list/retina/dark/list-plus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-dark li{
+background:url(../images/list/retina/dark/list-minus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_check.list-dark li{
+background:url(../images/list/retina/dark/list-check_@2x.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-dark li{
+background:url(../images/list/retina/dark/list-cross_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-dark li{
+background:url(../images/list/retina/dark/list-arrow_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-dark li{
+background:url(../images/list/retina/dark/list-arrow-2_@2x.png) center left no-repeat;
+}
+
+ul.list.list_star.list-dark li{
+background:url(../images/list/retina/dark/list-star_@2x.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-dark li{
+background:url(../images/list/retina/dark/list-heart_@2x.png) center left no-repeat;
+}
+
+
+
+/* --- White --- */
+
+ul.list.list_square.list-white li{
+background:url(../images/list/retina/white/list-square_@2x.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-white li{
+background:url(../images/list/retina/white/list-circle_@2x.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-white li{
+background:url(../images/list/retina/white/list-plus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-white li{
+background:url(../images/list/retina/white/list-minus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_check.list-white li{
+background:url(../images/list/retina/white/list-check_@2x.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-white li{
+background:url(../images/list/retina/white/list-cross_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-white li{
+background:url(../images/list/retina/white/list-arrow_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-white li{
+background:url(../images/list/retina/white/list-arrow-2_@2x.png) center left no-repeat;
+}
+
+ul.list.list_star.list-white li{
+background:url(../images/list/retina/white/list-star_@2x.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-white li{
+background:url(../images/list/retina/white/list-heart_@2x.png) center left no-repeat;
+}
+
+
+
+/* --- Light Orange --- */
+
+ul.list.list_square.list-light-orange li{
+background:url(../images/list/retina/light-orange/list-square_@2x.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-light-orange li{
+background:url(../images/list/retina/light-orange/list-circle_@2x.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-light-orange li{
+background:url(../images/list/retina/light-orange/list-plus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-light-orange li{
+background:url(../images/list/retina/light-orange/list-minus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_check.list-light-orange li{
+background:url(../images/list/retina/light-orange/list-check_@2x.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-light-orange li{
+background:url(../images/list/retina/light-orange/list-cross_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-light-orange li{
+background:url(../images/list/retina/light-orange/list-arrow_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-light-orange li{
+background:url(../images/list/retina/light-orange/list-arrow-2_@2x.png) center left no-repeat;
+}
+
+ul.list.list_star.list-light-orange li{
+background:url(../images/list/retina/light-orange/list-star_@2x.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-light-orange li{
+background:url(../images/list/retina/light-orange/list-heart_@2x.png) center left no-repeat;
+}
+
+
+
+/* --- Light Cyan --- */
+
+ul.list.list_square.list-light-cyan li{
+background:url(../images/list/retina/light-cyan/list-square_@2x.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-light-cyan li{
+background:url(../images/list/retina/light-cyan/list-circle_@2x.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-light-cyan li{
+background:url(../images/list/retina/light-cyan/list-plus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-light-cyan li{
+background:url(../images/list/retina/light-cyan/list-minus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_check.list-light-cyan li{
+background:url(../images/list/retina/light-cyan/list-check_@2x.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-light-cyan li{
+background:url(../images/list/retina/light-cyan/list-cross_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-light-cyan li{
+background:url(../images/list/retina/light-cyan/list-arrow_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-light-cyan li{
+background:url(../images/list/retina/light-cyan/list-arrow-2_@2x.png) center left no-repeat;
+}
+
+ul.list.list_star.list-light-cyan li{
+background:url(../images/list/retina/light-cyan/list-star_@2x.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-light-cyan li{
+background:url(../images/list/retina/light-cyan/list-heart_@2x.png) center left no-repeat;
+}
+
+
+
+/* --- Light Green --- */
+
+ul.list.list_square.list-light-green li{
+background:url(../images/list/retina/light-green/list-square_@2x.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-light-green li{
+background:url(../images/list/retina/light-green/list-circle_@2x.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-light-green li{
+background:url(../images/list/retina/light-green/list-plus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-light-green li{
+background:url(../images/list/retina/light-green/list-minus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_check.list-light-green li{
+background:url(../images/list/retina/light-green/list-check_@2x.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-light-green li{
+background:url(../images/list/retina/light-green/list-cross_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-light-green li{
+background:url(../images/list/retina/light-green/list-arrow_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-light-green li{
+background:url(../images/list/retina/light-green/list-arrow-2_@2x.png) center left no-repeat;
+}
+
+ul.list.list_star.list-light-green li{
+background:url(../images/list/retina/light-green/list-star_@2x.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-light-green li{
+background:url(../images/list/retina/light-green/list-heart_@2x.png) center left no-repeat;
+}
+
+
+
+/* --- Aqua --- */
+
+ul.list.list_square.list-aqua li{
+background:url(../images/list/retina/aqua/list-square_@2x.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-aqua li{
+background:url(../images/list/retina/aqua/list-circle_@2x.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-aqua li{
+background:url(../images/list/retina/aqua/list-plus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-aqua li{
+background:url(../images/list/retina/aqua/list-minus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_check.list-aqua li{
+background:url(../images/list/retina/aqua/list-check_@2x.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-aqua li{
+background:url(../images/list/retina/aqua/list-cross_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-aqua li{
+background:url(../images/list/retina/aqua/list-arrow_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-aqua li{
+background:url(../images/list/retina/aqua/list-arrow-2_@2x.png) center left no-repeat;
+}
+
+ul.list.list_star.list-aqua li{
+background:url(../images/list/retina/aqua/list-star_@2x.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-aqua li{
+background:url(../images/list/retina/aqua/list-heart_@2x.png) center left no-repeat;
+}
+
+
+
+/* --- Lemon --- */
+
+ul.list.list_square.list-lemon li{
+background:url(../images/list/retina/lemon/list-square_@2x.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-lemon li{
+background:url(../images/list/retina/lemon/list-circle_@2x.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-lemon li{
+background:url(../images/list/retina/lemon/list-plus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-lemon li{
+background:url(../images/list/retina/lemon/list-minus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_check.list-lemon li{
+background:url(../images/list/retina/lemon/list-check_@2x.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-lemon li{
+background:url(../images/list/retina/lemon/list-cross_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-lemon li{
+background:url(../images/list/retina/lemon/list-arrow_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-lemon li{
+background:url(../images/list/retina/lemon/list-arrow-2_@2x.png) center left no-repeat;
+}
+
+ul.list.list_star.list-lemon li{
+background:url(../images/list/retina/lemon/list-star_@2x.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-lemon li{
+background:url(../images/list/retina/lemon/list-heart_@2x.png) center left no-repeat;
+}
+
+
+
+/* --- Red --- */
+
+ul.list.list_square.list-red li{
+background:url(../images/list/retina/red/list-square_@2x.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-red li{
+background:url(../images/list/retina/red/list-circle_@2x.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-red li{
+background:url(../images/list/retina/red/list-plus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-red li{
+background:url(../images/list/retina/red/list-minus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_check.list-red li{
+background:url(../images/list/retina/red/list-check_@2x.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-red li{
+background:url(../images/list/retina/red/list-cross_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-red li{
+background:url(../images/list/retina/red/list-arrow_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-red li{
+background:url(../images/list/retina/red/list-arrow-2_@2x.png) center left no-repeat;
+}
+
+ul.list.list_star.list-red li{
+background:url(../images/list/retina/red/list-star_@2x.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-red li{
+background:url(../images/list/retina/red/list-heart_@2x.png) center left no-repeat;
+}
+
+
+
+/* --- Purple --- */
+
+ul.list.list_square.list-purple li{
+background:url(../images/list/retina/purple/list-square_@2x.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-purple li{
+background:url(../images/list/retina/purple/list-circle_@2x.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-purple li{
+background:url(../images/list/retina/purple/list-plus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-purple li{
+background:url(../images/list/retina/purple/list-minus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_check.list-purple li{
+background:url(../images/list/retina/purple/list-check_@2x.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-purple li{
+background:url(../images/list/retina/purple/list-cross_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-purple li{
+background:url(../images/list/retina/purple/list-arrow_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-purple li{
+background:url(../images/list/retina/purple/list-arrow-2_@2x.png) center left no-repeat;
+}
+
+ul.list.list_star.list-purple li{
+background:url(../images/list/retina/purple/list-star_@2x.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-purple li{
+background:url(../images/list/retina/purple/list-heart_@2x.png) center left no-repeat;
+}
+
+}

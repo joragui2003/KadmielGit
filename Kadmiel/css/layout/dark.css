@@ -1,0 +1,169 @@
+/* DARK VERSION */
+
+body{
+	background:#161A1C;
+	color:#909090;
+}
+
+a:hover,
+a:active {
+	color:#FFFFFF!important;
+}
+
+strong, b, .bold{
+	color:#E2E2E2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	color:#FFFFFF;
+}
+
+#loader{}
+
+#loader span{}
+
+.section_title h4{
+	color:#E2E2E2;
+}
+
+#portfolio_filters .filters a {
+    color:#E2E2E2;
+}
+
+#portfolio_filters .filters a span {
+    background:#161A1C;
+}
+
+input[type="text"], input[type="password"], input[type="email"], textarea, select{
+	background:#161A1C;
+	border:1px solid #393939;
+	color:#909090;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="submit"]:focus, textarea:focus {
+    border:1px solid;
+	color:#FFFFFF;
+	outline:none;
+}
+
+
+.accordion .accordion_container,
+.toggle .toggle_container,
+.accordion .accordion_container:last-child,
+.toggle .toggle_container:last-child,
+.tabs_area .tabs li,
+.tabs_area .tabs li a,
+.tabs_area .tabs li a:hover,
+.tabs_area .tabs li a.active,
+.tabs_area .tab,
+table.table tr td,
+table.table tr td:last-child,
+.pricing_table .pricing_table_column.selected ul,
+.pricing_table .pricing_table_column ul li,
+.pricing_table .pricing_table_column.last ul li,
+.pricing_table .pricing_table_column ul li.head,
+.pricing_table_clean .pricing_table_column ul li,
+.pricing_table_clean .pricing_table_column.last ul li,
+.pricing_table_clean .pricing_table_column ul li.head,
+.pricing_table_clean .pricing_table_column.selected ul{
+	border-color:#393939;
+}
+
+.tabs_area .tabs li a,
+.pricing_table_clean .pricing_table_column ul li{
+    background:#161A1C;
+}
+
+.tabs_area .tabs li a:hover,
+.tabs_area .tabs li a.active,
+table.table tr th{
+	background:#232A2D;
+}
+
+
+table.table tr.alternate td,
+.pricing_table .pricing_table_column ul li.alternate,
+.pricing_table_clean .pricing_table_column.selected ul li{
+	background:#191E20;
+}
+
+.highlight,
+.dropcaps{
+	background:#232A2D;
+	color:#FFFFFF;
+}
+
+.alert.standard strong,
+.alert.standard b{
+	color:#9E9E9E;
+}
+
+.alert.info strong,
+.alert.info b{
+	color:#528DA9;
+}
+
+.alert.success strong,
+.alert.success b{
+	color:#8FA442;
+}
+
+.alert.error strong,
+.alert.error b{
+	color:#B3696C;
+}
+
+.alert.warning strong,
+.alert.warning b{
+	color:#C4A21B;
+}
+
+
+.accordion_trigger:hover,
+.toggle_trigger:hover{
+	background:#191E20;
+}
+
+.accordion .accordion_trigger span,
+.toggle .toggle_trigger span{
+	background-image:url(../../images/sprites/dark/sprite-toggle.png);
+}
+
+ul.icons.dark li{
+	background:#4A5155;
+	color:#FFFFFF;
+}
+
+ul.icons.white li{
+	background:#161A1C;
+	color:#FFFFFF;
+}
+
+
+ul.font-icons.dark li{
+	background:#4A5155;
+	color:#FFFFFF;
+}
+
+ul.font-icons.white li{
+	background:#161A1C;
+	color:#FFFFFF;
+}
+
+.list.list-dark li{
+	background-color:#4A5155 !important; 
+	color:#FFFFFF;
+}
+
+.list.list-white li{
+	background-color:#161A1C !important; 
+	color:#FFFFFF;
+}
+
+
+

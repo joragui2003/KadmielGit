@@ -1,0 +1,166 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7 lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8 lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="es">
+<!--<![endif]-->
+<head runat="server">
+    <!-- Basic Page Metas -->
+    <meta charset="utf-8" />
+    <title>Verificentros de Hidalgo | Programa de Verificación Vehicular</title>
+    <meta name="description" content="Verificación vehicular para vehículos a Gasolina y Diesel, donde podras obtener los Hologramas Cero, Doble Cero, Dos y General" />
+    <meta name="author" content="Jorge Aguilar  " />
+    <meta name="keywords" content="verificacion, vehicular, centro de, requisitos, para, verificar, verificentros, de hidalgo, de pachuca, de tizayuca, calcomania, holograma, cero, doble cero, dos, general, programa, hoy no circula, sabatino, contingencia ambiental, contaminacion, ahorro, ahorrar, gasolina, circula diario, reposicion de certificado, gasolina, diesel, gas lp" />
+
+    <!-- Mobile Specifics -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<%--    maximum-scale=1--%>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon-114x114.png" />
+
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+
+    <!-- Main CSS Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Media Queries -->
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    
+    <!-- Layout -->
+    <link rel="stylesheet" href="css/layout/white.css" data-name="layout" />
+
+    <!-- Color Skin -->
+    <link rel="stylesheet" href="css/skins/light-orange.css" data-name="skin" />
+
+    <!-- Style Selector -->
+    <link rel="stylesheet" href="css/style_selector.css" />
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/ie.css"> 
+    <script src="js/libs/html5.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 8]>
+    <script src="js/libs/icons.ie.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        #colors_filters a,
+        #font_colors_filters a {
+            margin-bottom: 3px;
+        }
+
+        .list {
+            margin: 0 0 0 0 !important;
+        }
+
+            .list li {
+                padding-top: 5px !important;
+                padding-bottom: 5px !important;
+                margin-bottom: 5px !important;
+            }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder ID="body" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </form>
+
+    <!-- Start Javascripts  -->
+    <script src="js/libs/jquery-1.8.3.min.js"></script>
+    <!-- jQuery Library -->
+    <script src="js/libs/jquery.cookie.js"></script>
+    <!-- jQuery Cookie Helper -->
+    <script src="js/style_selector.js"></script>
+    <!-- Style Selector -->
+    <script src="js/libs/jquery.preloader.js"></script>
+    <!-- jQuery Preloader -->
+    <script src="js/libs/jquery.smartresize.js"></script>
+    <!-- jQuery SmartResize -->
+    <script src="js/libs/jquery.parallax.js"></script>
+    <!-- jQuery Parallax -->
+    <script src="js/libs/jquery.flexslider.js"></script>
+    <!-- Flexslider Plugin -->
+    <script src="js/libs/jquery.scrollTo.js"></script>
+    <!-- scrollTo Plugin -->
+    <script src="js/libs/jquery.nav.js"></script>
+    <!-- Nav Plugin -->
+    <script src="js/libs/jquery.selectnav.js"></script>
+    <!-- SelectNav Plugin -->
+    <script src="js/libs/jquery.tweet.js"></script>
+    <!-- Twitter Plugin -->
+    <script src="js/libs/jquery.isotope.js"></script>
+    <!-- Isotope Plugin -->
+    <script src="js/libs/jquery.colortip.js"></script>
+    <!-- Tooltips Plugin -->
+    <script src="js/libs/jquery.prettyPhoto.js"></script>
+    <!-- PrettyPhoto Plugin -->
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <!-- Google Map API -->
+    <script src="js/main.js"></script>
+    <!-- Main JS File -->
+
+    <script type="text/javascript">
+        $('#colors_filters a').live('click', function () {
+            $('.icons li span').removeClass('icon-dark icon-white icon-light_orange icon-light_cyan icon-aqua icon-light_green icon-lemon icon-red icon-purple').addClass($(this).attr('data-color'));
+
+
+            if ($(this).attr('data-color') == 'icon-white') {
+                $('.icons').not('.icons-social').addClass('white');
+            }
+            else {
+                $('.icons').not('.icons-social').removeClass('white');
+            }
+
+
+            if ($(this).attr('data-color') == 'icon-dark') {
+                $('.icons').not('.icons-social').addClass('dark');
+            }
+            else {
+                $('.icons').not('.icons-social').removeClass('dark');
+            }
+            return false;
+        });
+        $('#colors_filters a').eq(0).click();
+        $('#font_colors_filters a').live('click', function () {
+            $('.font-icons li span').css({ 'color': $(this).attr('data-color') });
+
+
+            if ($(this).attr('data-color') == '#ffffff') {
+                $('.font-icons').addClass('white');
+            }
+            else {
+                $('.font-icons').removeClass('white');
+            }
+
+
+            if ($(this).attr('data-color') == '#000000') {
+                $('.font-icons').addClass('dark');
+            }
+            else {
+                $('.font-icons').removeClass('dark');
+            }
+            return false;
+        });
+        $('#font_colors_filters a').eq(0).click();
+    </script>
+    <!-- End Javascripts  -->
+</body>
+</html>

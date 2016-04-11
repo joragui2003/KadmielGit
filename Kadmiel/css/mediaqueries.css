@@ -1,0 +1,373 @@
+
+/* ==================================================
+Media Queries
+================================================== */
+
+/* --- Mobile --- */
+@media only screen and (max-width: 767px) {
+    header {
+    }
+
+        header #nav {
+            display: none;
+        }
+
+        header #nav2 {
+            display: block;
+        }
+      
+        header #menu {
+            float: right;
+            font-size: 10px;
+            width: 60%;
+            margin: 0 20px 0 0;
+        }
+
+        header .selectnav {
+            padding: 5px;
+            width: 100%;
+            border: 1px solid #464d52;
+            color: #fff;
+            background: #373c3f url(../images/sprites/ico_nav_@2x.png) right center no-repeat;
+            background-position: 99% 7px;
+            background-size: 16px 16px;
+            cursor: pointer;
+            margin: 9px 20px 0 0;
+            float: left;
+            display: block;
+            position: relative;
+            z-index: 101;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+    .parallax .backsection {
+        bottom: -16px!important;
+    }
+
+    .parallax#px01 .bg {
+        background-attachment: scroll !important;
+        background-size: 250% !important;
+    }
+
+    .parallax#px02 .bg {
+        background-attachment: scroll !important;
+        background-size: 250% !important;
+    }
+
+    .parallax#px03 .bg {
+        background-attachment: scroll !important;
+        background-size: 250% !important;
+    }
+
+    .parallax#px04 .bg {
+        background-attachment: scroll !important;
+        background-size: 250% !important;
+    }
+
+    .team_single,
+    .service_item {
+        margin-bottom: 40px !important;
+    }
+
+    .animate_list ul {
+        width: 100%;
+    }
+
+        .animate_list ul li .image {
+            float: none;
+            margin: 0 auto;
+        }
+
+        .animate_list ul li .text {
+            float: none;
+            text-align: center;
+        }
+
+        .animate_list ul li .text {
+            margin: 30px 0;
+            width: 100%;
+        }
+
+    .animate_list .animate_arrows {
+        top: 26px;
+    }
+
+    #portfolio_filters .icon {
+        float: none;
+        display: none;
+    }
+
+    #portfolio_filters .filters a {
+        display: block;
+        margin: 0 0 10px 0;
+    }
+
+    .contact_form #contact_form_submitter {
+        margin-bottom: 20px;
+    }
+
+    .map {
+        max-height: 200px;
+    }
+
+    #portfolio_items .item .mask,
+    .item .mask {
+        width: 220px;
+        height: 220px;
+        left: 40px;
+    }
+
+    #portfolio_items .item img,
+    .item img {
+        width: 220px;
+        margin: 0 0 0 40px;
+        -moz-border-radius: 9999px;
+        -webkit-border-radius: 9999px;
+        border-radius: 9999px;
+    }
+
+    #portfolio_items .item .mask span.title-item,
+    .item .mask span.title-item {
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+    }
+
+    footer {
+        line-height: 20px;
+    }
+
+    #homepage .social_area {
+        top: 5px;
+    }
+
+    #homepage .slider .flex-direction-nav .flex-prev {
+        left: 5px;
+    }
+
+    #homepage .slider .flex-direction-nav .flex-next {
+        right: 5px;
+    }
+
+    #homepage .go_down {
+        display: none;
+    }
+
+    #homepage ul.slides li .caption {
+        background: rgba(0,0,0,0.3);
+        padding: 10px 20px;
+        bottom: 0;
+        text-align: center;
+    }
+
+    #homepage ul.slides li .font-container {
+        bottom: 0;
+    }
+
+    #homepage ul.slides li .caption h2,
+    #homepage ul.slides li .caption h3 {
+        font-size: 18px;
+    }
+
+    #homepage ul.slides li .caption p {
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 10px;
+    }
+
+    #homepage ul.slides li .font-container {
+        margin-top: -18px;
+        padding: 0 20px;
+    }
+
+        #homepage ul.slides li .font-container span {
+            font-size: 36px;
+        }
+
+            #homepage ul.slides li .font-container span.margin-right {
+                margin-right: 45px;
+            }
+
+
+    .alert .icon {
+        background-image: url(../images/sprites/sprite-alert_@2x.png);
+        background-size: 64px 160px;
+    }
+
+    .alert .alert_close {
+        background-image: url(../images/sprites/sprite-alert_@2x.png);
+        background-size: 64px 160px;
+    }
+
+    .accordion .accordion_trigger span,
+    .toggle .toggle_trigger span {
+        background-image: url(../images/sprites/sprite-toggle_@2x.png);
+        background-size: 22px 44px;
+    }
+
+    .pricing_table .pricing_table_column {
+        width: 100%;
+        border-right: 1px solid #efefef;
+        margin: 0 0 20px 0;
+    }
+
+        .pricing_table .pricing_table_column ul li {
+            height: auto;
+        }
+
+            .pricing_table .pricing_table_column ul li span.label {
+                display: block;
+            }
+
+        .pricing_table .pricing_table_column.labels {
+            display: none;
+        }
+
+        .pricing_table .pricing_table_column.selected,
+        .pricing_table_clean .pricing_table_column.selected {
+            border-right: none;
+        }
+
+            .pricing_table .pricing_table_column.selected ul li.head,
+            .pricing_table_clean .pricing_table_column.selected ul li.head {
+                margin-top: 0;
+                padding-top: 0;
+            }
+
+            .pricing_table .pricing_table_column.selected ul li.end {
+                padding-top: 32px;
+                padding-bottom: 32px;
+            }
+
+    .pricing_table_clean .pricing_table_column {
+        width: 100%;
+        margin: 0 0 20px 0;
+        border-right: 1px solid #efefef;
+    }
+
+        .pricing_table .pricing_table_column.last ul li,
+        .pricing_table_clean .pricing_table_column.last ul li {
+            border-left: 1px solid #efefef;
+            border-right: none;
+        }
+
+    .PanelLog {
+        width: 90%;
+        padding: 2px;
+        font-size: 0.8em;
+        margin: 80px auto 0px;
+    }
+
+    .PanelReg {
+        width: 90%;
+        padding: 2px;
+        font-size: 0.8em;
+        margin: 20px auto;
+    }
+
+    .input-group-addon {
+        font-size: 0.8em;
+    }
+}
+
+
+/* --- Mobile Landscape Specific --- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #homepage ul.slides li .font-container {
+        margin-top: -24px;
+        padding: 0 20px;
+    }
+
+        #homepage ul.slides li .font-container span {
+            font-size: 48px;
+        }
+
+            #homepage ul.slides li .font-container span.margin-right {
+                margin-right: 75px;
+            }
+
+    #portfolio_items .item .mask,
+    .item .mask {
+        left: 100px;
+    }
+
+    #portfolio_items .item img,
+    .item img {
+        margin: 0 0 0 100px;
+    }
+}
+
+
+
+
+/* --- Tablet Portrait Specific --- */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #menu ul li a {
+        padding: 0 10px;
+    }
+
+    #portfolio_items .item .mask span.title-item,
+    .item .mask span.title-item {
+        font-size: 16px;
+        line-height: 152px;
+    }
+}
+
+
+/* --- Tablet Landscape Specific --- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    #homepage ul.slides li .caption {
+        bottom: 10%;
+    }
+
+    #homepage ul.slides li .font-container {
+        bottom: 10%;
+    }
+}
+
+
+/* --- All Higher than 960px --- */
+@media only screen and (min-width: 960px) {
+}
+
+
+/* --- All Smaller than 960px --- */
+@media only screen and (max-width: 959px) {
+}
+
+
+/* --- Retina Display --- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+    header #logo {
+        background-image: url(../images/logo_@2x.png);
+        background-size: 76px 18px;
+    }
+
+    .sep,
+    .sep-80 {
+        background-image: url(../images/sprites/sep_@2x.png);
+        background-size: 50px 8px;
+    }
+
+    .parallax .sentence .icon-blockquote-32 {
+        background-image: url(../images/sprites/blockquote_@2x.png);
+        background-size: 32px 32px;
+    }
+
+    .service_item .icon-32 {
+        background-image: url(../images/sprites/services_icon_@2x.png);
+        background-size: 96px 32px;
+    }
+
+    .animate_list .animate_arrows .divider {
+        background-image: url(../images/sprites/prev_next_sep_@2x.png);
+        background-size: 24px 22px;
+    }
+
+    .animate_list .animate_arrows a {
+        background-image: url(../images/sprites/prev_next_icons_@2x.png);
+        background-size: 44px 12px;
+    }
+}

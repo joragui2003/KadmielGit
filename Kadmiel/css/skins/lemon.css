@@ -1,0 +1,181 @@
+/* ==================================================
+Lemon Skin
+================================================== */
+
+::-moz-selection {
+	background: #99cf54;
+	color: #FFF;
+	text-shadow: none;
+}
+::selection {
+	background: #99cf54;
+	color: #FFF;
+	text-shadow: none;
+}
+
+a:hover{
+	color: #4A5155;	
+}
+
+a:active {
+	color: #373C3F;
+}
+
+footer a:hover,
+footer a:active{
+	color: #ffffff;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="submit"]:focus, textarea:focus,
+#portfolio_filters .filters a span{
+	border-color:#99cf54;
+}
+
+.color,
+a{
+	color:#99cf54;
+}
+
+#loader{
+	background:#99cf54; 
+}
+
+#loader span{
+	color:#FFFFFF;
+}
+
+#portfolio_filters .filters a:hover,
+#portfolio_filters .filters a.active{
+	color:#99cf54!important;
+}
+
+.bgcolor,
+header #logo:hover,
+#menu ul li a:hover,
+#menu ul li.current a,
+#portfolio_filters .filters a:hover span,
+#portfolio_filters .filters a.active span{
+	background-color:#99cf54;
+}
+
+#homepage ul.slides li .font-container a > span:hover{
+	color:#99cf54;	
+}
+
+.team_single .image .mask,
+#portfolio_items .item .mask,
+.item .mask {
+	border:10px solid rgba(153, 207, 84, 0.155);
+}
+
+.team_single .image .mask.active,
+#portfolio_items .item:hover .mask,
+.item:hover .mask {
+	background-color:#99cf54;
+	background-color:rgba(153, 207, 84, 0.45);	
+}
+
+.animate_list ul li .image .mask{
+	border:5px solid rgba(153, 207, 84, 0.255);
+}
+
+.animate_list ul li .image:hover .mask {
+	background-color:#99cf54;
+	background-color:rgba(153, 207, 84, 0.35);	
+}
+
+.highlight.bgcolor,
+.dropcaps.bgcolor{
+	background-color:#99cf54;
+	color:#ffffff;
+}
+
+#homepage .slider .flex-direction-nav .flex-prev,
+#homepage .slider .flex-direction-nav .flex-next{
+	background-color:#99cf54;
+}
+
+ul.list.list_square.list-color li{
+background:url(../../images/list/lemon/list-square.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-color li{
+background:url(../../images/list/lemon/list-circle.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-color li{
+background:url(../../images/list/lemon/list-plus.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-color li{
+background:url(../../images/list/lemon/list-minus.png) center left no-repeat;
+}
+
+ul.list.list_check.list-color li{
+background:url(../../images/list/lemon/list-check.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-color li{
+background:url(../../images/list/lemon/list-cross.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-color li{
+background:url(../../images/list/lemon/list-arrow.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-color li{
+background:url(../../images/list/lemon/list-arrow-2.png) center left no-repeat;
+}
+
+ul.list.list_star.list-color li{
+background:url(../../images/list/lemon/list-star.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-color li{
+background:url(../../images/list/lemon/list-heart.png) center left no-repeat;
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+ul.list.list_square.list-color li{
+background:url(../../images/list/retina/lemon/list-square_@2x.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-color li{
+background:url(../../images/list/retina/lemon/list-circle_@2x.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-color li{
+background:url(../../images/list/retina/lemon/list-plus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-color li{
+background:url(../../images/list/retina/lemon/list-minus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_check.list-color li{
+background:url(../../images/list/retina/lemon/list-check_@2x.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-color li{
+background:url(../../images/list/retina/lemon/list-cross_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-color li{
+background:url(../../images/list/retina/lemon/list-arrow_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-color li{
+background:url(../../images/list/retina/lemon/list-arrow-2_@2x.png) center left no-repeat;
+}
+
+ul.list.list_star.list-color li{
+background:url(../../images/list/retina/lemon/list-star_@2x.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-color li{
+background:url(../../images/list/retina/lemon/list-heart_@2x.png) center left no-repeat;
+}
+}

@@ -1,0 +1,181 @@
+/* ==================================================
+Aqua Skin
+================================================== */
+
+::-moz-selection {
+	background: #28d3bd;
+	color: #FFF;
+	text-shadow: none;
+}
+::selection {
+	background: #28d3bd;
+	color: #FFF;
+	text-shadow: none;
+}
+
+a:hover{
+	color: #4A5155;	
+}
+
+a:active {
+	color: #373C3F;
+}
+
+footer a:hover,
+footer a:active{
+	color: #ffffff;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="submit"]:focus, textarea:focus,
+#portfolio_filters .filters a span{
+	border-color:#28d3bd;
+}
+
+.color,
+a{
+	color:#28d3bd;
+}
+
+#loader{
+	background:#28d3bd; 
+}
+
+#loader span{
+	color:#FFFFFF;
+}
+
+#portfolio_filters .filters a:hover,
+#portfolio_filters .filters a.active{
+	color:#28d3bd!important;
+}
+
+.bgcolor,
+header #logo:hover,
+#menu ul li a:hover,
+#menu ul li.current a,
+#portfolio_filters .filters a:hover span,
+#portfolio_filters .filters a.active span{
+	background-color:#28d3bd;
+}
+
+#homepage ul.slides li .font-container a > span:hover{
+	color:#28d3bd;	
+}
+
+.team_single .image .mask,
+#portfolio_items .item .mask,
+.item .mask {
+	border:10px solid rgba(40, 211, 189, 0.155);
+}
+
+.team_single .image .mask.active,
+#portfolio_items .item:hover .mask,
+.item:hover .mask {
+	background-color:#28d3bd;
+	background-color:rgba(40, 211, 189, 0.45);	
+}
+
+.animate_list ul li .image .mask{
+	border:5px solid rgba(40, 211, 189, 0.255);
+}
+
+.animate_list ul li .image:hover .mask {
+	background-color:#28d3bd;
+	background-color:rgba(40, 211, 189, 0.35);	
+}
+
+.highlight.bgcolor,
+.dropcaps.bgcolor{
+	background-color:#28d3bd;
+	color:#ffffff;
+}
+
+#homepage .slider .flex-direction-nav .flex-prev,
+#homepage .slider .flex-direction-nav .flex-next{
+	background-color:#28d3bd;
+}
+
+ul.list.list_square.list-color li{
+background:url(../../images/list/aqua/list-square.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-color li{
+background:url(../../images/list/aqua/list-circle.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-color li{
+background:url(../../images/list/aqua/list-plus.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-color li{
+background:url(../../images/list/aqua/list-minus.png) center left no-repeat;
+}
+
+ul.list.list_check.list-color li{
+background:url(../../images/list/aqua/list-check.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-color li{
+background:url(../../images/list/aqua/list-cross.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-color li{
+background:url(../../images/list/aqua/list-arrow.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-color li{
+background:url(../../images/list/aqua/list-arrow-2.png) center left no-repeat;
+}
+
+ul.list.list_star.list-color li{
+background:url(../../images/list/aqua/list-star.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-color li{
+background:url(../../images/list/aqua/list-heart.png) center left no-repeat;
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+ul.list.list_square.list-color li{
+background:url(../../images/list/retina/aqua/list-square_@2x.png) center left no-repeat;
+}
+
+ul.list.list_circle.list-color li{
+background:url(../../images/list/retina/aqua/list-circle_@2x.png) center left no-repeat;
+}
+
+ul.list.list_plus.list-color li{
+background:url(../../images/list/retina/aqua/list-plus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_minus.list-color li{
+background:url(../../images/list/retina/aqua/list-minus_@2x.png) center left no-repeat;
+}
+
+ul.list.list_check.list-color li{
+background:url(../../images/list/retina/aqua/list-check_@2x.png) center left no-repeat;
+}
+
+ul.list.list_cross.list-color li{
+background:url(../../images/list/retina/aqua/list-cross_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow.list-color li{
+background:url(../../images/list/retina/aqua/list-arrow_@2x.png) center left no-repeat;
+}
+
+ul.list.list_arrow_2.list-color li{
+background:url(../../images/list/retina/aqua/list-arrow-2_@2x.png) center left no-repeat;
+}
+
+ul.list.list_star.list-color li{
+background:url(../../images/list/retina/aqua/list-star_@2x.png) center left no-repeat;
+}
+
+ul.list.list_heart.list-color li{
+background:url(../../images/list/retina/aqua/list-heart_@2x.png) center left no-repeat;
+}
+}
