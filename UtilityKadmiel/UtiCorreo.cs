@@ -33,6 +33,7 @@ namespace Kadmiel.BusKadmiel.UtilityKadmiel
 
                 mensaje.Priority = MailPriority.Normal;
                 SmtpClient smtl = new SmtpClient();
+                //smtl.EnableSsl = true;
                 smtl.Host = ConfigurationManager.AppSettings["MAIL_SMTP"];       //"mail.tag-tic.com.mx";
                 smtl.Port = Convert.ToInt32(ConfigurationManager.AppSettings["MAIL_PUERTO"]);  //26;
                 string usuario = ConfigurationManager.AppSettings["MAIL_USUARIO"];

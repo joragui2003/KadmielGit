@@ -22,7 +22,7 @@ public static class EnviarCorreo
 
         SmtpClient smtp = new SmtpClient();
         smtp.Host = "smtpout.secureserver.net";
-        smtp.Port = 25;
+        smtp.Port = 80;
         smtp.EnableSsl = false;
         smtp.UseDefaultCredentials = false;
         smtp.Credentials = new NetworkCredential("mail@verificentrosdehidalgo.com", "P@ssw0rd02");
